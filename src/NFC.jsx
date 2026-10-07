@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const NFCComponent = () => {
     const [message, setMessage] = useState('');
-    const [nfcUrl] = useState('https://mo-ismail.web.app/');
+    const [nfcUrl] = useState('https://elharby-workshop.vercel.app/');
     const [scanning, setScanning] = useState(false);
     const [error, setError] = useState('');
 
